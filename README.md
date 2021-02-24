@@ -6,4 +6,4 @@ Test your skills against the SuperComputer()💻🌐💻
 ## Demo
 https://eggeriley.github.io/rockPaperScissors/
 
-![Alt text](images/screenshot.png?raw=true "Title")
+<a target="_blank" rel="noopener noreferrer" href="https://eggeriley.github.io/rockPaperScissors/"><img src="/Eggeriley/rockPaperScissors/raw/master/images/screenshot.png?raw=true" alt="Alt text" title="Title" style="max-width:100%;"></a>
