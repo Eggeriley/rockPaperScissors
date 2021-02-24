@@ -1,7 +1,7 @@
 
 # rockPaperScissors
 A simple rock paper scissors app built with only HTML CSS &amp;Javascript
-Test your skills against the **SuperComputer()**💻🌐💻
+Test your skills against the SuperComputer()💻🌐💻
 
 ## Demo
 https://eggeriley.github.io/rockPaperScissors/
