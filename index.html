@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    <header>
+      <h1>Rock (👊) Paper (✋)  Scissors (✌️)</h1>
+    </header>
+    <main class="wrapper">
+
+
+      <div class="score-board">
+        <div id="scoreboard-label">Scoarboard</div>
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span><span>:</span><span id="computer-score">0</span>
+      </div>
+
+    <div id="win-lose-pannel">
+    <div id="changing-text" class="">
+      <div class="display-choices">
+        <div id="user" class="choice-message">
+          &nbsp;
+        </div>
+        <div id="comp" class="choice-message">
+          &nbsp;
+        </div>
+      </div>
+      <div class="result"><h2>Test your skills against the <span class="underline--magical" style="font-weight: bolder;">SuperComputer<span style="
+        font-family: monospace;
+    ">()</span></span> 💻🌐💻</h2></div>
+    </div>
+
+      <div id="choices" class="choices">
+        <div id="r" class="choice tooltip">
+          <span id="r-message" class="tooltiptext">Choose Rock</span>
+          <img style="height: 100px" src="images/rock.png" alt=""/>
+        </div>
+        <div id="p" class="choice tooltip">
+          <span id="p-message" class="tooltiptext">Choose Paper</span>
+          <img style="height: 100px" src="images/paper.png" alt=""/>
+        </div>
+        <div id="s" class="choice tooltip">
+          <span id="s-message" class="tooltiptext">Choose Scissors</span>
+          <img style="height: 100px" src="images/scissors.png" alt=""/>
+        </div> 
+      </div>
+    </div>
+      <div id="action-message">First to 5 points is the ultimate winner...Make your Move!</div>
+        <!-- <div id="form">
+          <label for="username">First name:</label>
+          <input id="username" name="username"><br><br>
+          <button onclick="greetings()">Submit</button>
+        </div>
+      -->
+    </main>
+    <script src="js/app.js"charset="utf-8"></script>
+  </body>
+</html>
